@@ -22,7 +22,14 @@ for (let i = 1; i <= 100; i++){  //stamp variable i
         elementList.append(multipleThree) 
     }
 
-    
+    //add var for multiple of 5
+    else if (i % 5 === 0){
+        const multipleFive = document.createElement('li')
+        multipleFive.innerText = 'BUZZ'
+        elementList.append(multipleFive)
+
+    }
+  
 
     
 
