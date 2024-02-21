@@ -25,12 +25,29 @@
 }
 
 /* #endregion UTILITIS */
+.box{
+    background-color: rgb(0, 119, 255);
+}
+
+.boxS{
+    background-color: brown;
+}
+.box3{
+    background-color: green;
+}
+
+.box5{
+    background-color: blueviolet;
+}
+
 
 li{
-    background-color: rgb(0, 140, 255);
     height: 100px;
     width: 100px;
     margin: 5px;
+    color: aliceblue;
+    font-size: large;
+    
 }
 
 ul{
