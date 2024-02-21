@@ -8,7 +8,8 @@ const elementList = document.getElementById("list")
 for (let i = 1; i <= 100; i++){
     console.log(i)  //stamp variable i
     const markupListItem = `<li class="box box-${i}">${i}</li>`
-    console.log(markupListItem)
+    console.log(markupListItem)//stamp markup list
 
     elementList.insertAdjacentHTML("beforeend", markupListItem)
+    //add sequence of numbers from 1 to 100 for markuplist
 }
