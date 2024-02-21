@@ -11,11 +11,30 @@
     margin: auto;
 }
 
-/* UTILITIS */
+/* #region UTILITIS */
 .d-flex{
  display: flex;
 }
 
 .wrap{
     flex-wrap: wrap;
+}
+
+.item{
+    align-items: center;
+}
+
+/* #endregion UTILITIS */
+
+.box{
+    background-color: rgb(0, 140, 255);
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    line-height: 100px;
 }
