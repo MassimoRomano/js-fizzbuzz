@@ -6,7 +6,7 @@
 
 
 .contain{
-    width: 90%;
+    width: 80%;
     max-width: 1200px;
     margin: auto;
 }
@@ -25,19 +25,38 @@
 }
 
 /* #endregion UTILITIS */
+body{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    color: blueviolet;
+    margin: 40px 0;
+    font-size: 50px;
+}
 .box{
     background-color: rgb(0, 119, 255);
+    color: beige;
+    font-size: larger;
 }
 
 .boxS{
-    background-color: brown;
+    background-color: rgb(241, 12, 12);
+    color: rgb(255, 238, 5);
+    font-size: large;
 }
 .box3{
-    background-color: green;
+    background-color: rgb(5, 228, 5);
+    color: rgb(126, 50, 133);
+    font-size: large;
+    font-weight: bold;
 }
 
 .box5{
-    background-color: blueviolet;
+    background-color: rgb(169, 98, 236);
+    color: aliceblue;
+    font-size: large;
 }
 
 
@@ -45,8 +64,6 @@ li{
     height: 100px;
     width: 100px;
     margin: 5px;
-    color: aliceblue;
-    font-size: large;
     
 }
 
